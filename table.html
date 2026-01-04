@@ -5,13 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td , th{
+            border: 2px solid black;
+            padding: 5px 10px;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Html Table</h1>
     <table>
+        <caption>Employee Salary Data</caption>
         <thead>
-
+            <tr>
+                <th>NO.</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Salary</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
