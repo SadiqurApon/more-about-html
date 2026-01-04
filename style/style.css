@@ -13,3 +13,12 @@ li > a{
 nav li:hover{
     background-color: lightgray;
 }
+nav li .nested-hover{
+    display: none;
+    position: absolute;
+    background-color: palevioletred;
+    padding-left: 10px;
+}
+nav li:hover .nested-hover{
+    display: block;
+}

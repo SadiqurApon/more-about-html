@@ -15,7 +15,6 @@
             border: 2px solid black;
             padding: 5px 10px;
         }
-        
     </style>
     <link rel="stylesheet" href="style/style.css">
 </head>
@@ -26,7 +25,15 @@
             <ul>
                 <li><a href="index.html">index </a></li>
                 <li><a href="form.html">Form</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                    <ul class="nested-hover">
+                        <li><a href="index.html">index </a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="table.html">Table</a></li>
+                    </ul>
+                </li>
                 <li><a href="table.html">Table</a></li>
             </ul>
         </nav>
@@ -70,9 +77,9 @@
                 </tr>
             </tbody>
             <tfoot>
-<tr>
-    <td>total Employee 4</td>
-</tr>
+                <tr>
+                    <td>total Employee 4</td>
+                </tr>
             </tfoot>
         </table>
     </main>
